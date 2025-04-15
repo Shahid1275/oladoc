@@ -1,4 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import "tailwindcss";
 .active hr {
-  apply: block;
+  @apply: block;
+}
+body {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400; /* Normal weight */
+}
+::-webkit-scrollbar {
+  display: none; /* Better way to hide scrollbar */
 }

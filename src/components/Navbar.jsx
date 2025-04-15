@@ -9,7 +9,10 @@ const Navbar = () => {
 
   return (
     <div className="flex text-sm items-center justify-between py-4 sticky border-b top-0 bg-white z-50">
-      <h2 className="text-4xl font-bold cursor-pointer">
+      <h2
+        onClick={() => navigate("/")}
+        className="text-4xl font-bold cursor-pointer"
+      >
         <span className="text-yellow-500">ola</span>
         <span className="text-blue-500">doc</span>
       </h2>
